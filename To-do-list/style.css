@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+Body {
+   background-color: #333;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-shadow: 0px 0px 4px #FFFFFF;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+
+h5 {
+    font-size: 17px;
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+h6 {
+    font-size: 19px;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link {
+    font-size: 15px;
+    color: rgb(70, 135, 192);
+    text-decoration: none;
+}
+
+
+
+/* COMEÇO DO HEADER */
+
+nav {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dia1 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  
+  .dia1:hover {
+    background-color: rgba(4, 4, 139, 0.384);
+    box-shadow: 0px 0px 50px 15px rgba(4, 4, 139, 0.24);
+  }
+
+  .dia2 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 45px;
+    padding-top: 15px;
+  }
+
+  .dia2:hover {
+    background-color: rgba(110, 3, 3, 0.466);
+    box-shadow: 0px 0px 50px 15px rgba(110, 3, 3, 0.315);
+  }
+
+  .dia3 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  .dia3:hover {
+    background-color: rgba(4, 110, 45, 0.466);
+    box-shadow: 0px 0px 50px 15px rgba(4, 110, 45, 0.295);
+  }
+
+  .dia4 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  .dia4:hover {
+    background-color: rgba(133, 62, 4, 0.548);
+    box-shadow: 0px 0px 50px 15px rgba(133, 62, 4, 0.377);
+  }
+
+  .dia5 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  .dia5:hover {
+    background-color: rgba(110, 4, 110, 0.568);
+    box-shadow: 0px 0px 50px 15px rgba(110, 4, 110, 0.37);
+  }
+
+  .dia6 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+
+  .dia6:hover {
+    background-color: rgba(183, 196, 8, 0.466);
+    box-shadow: 0px 0px 50px 15px rgba(184, 196, 8, 0.253);
+  }
+
+  .dia7 {
+    height: 55px;
+    width: 140px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+
+  .dia7:hover {
+    background-color: rgba(185, 8, 52, 0.37);
+    box-shadow: 0px 0px 50px 15px rgba(185, 8, 52, 0.219);
+  }
+
+
+  /* FIM DO HEADER */
+
+/* ----------------- X --------------------- */
+
+  /* COMEÇO DOS CARDS */
+
+.content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 650px;
+}
+
+.content .semana1 {
+    cursor: pointer;
+    background-color: rgba(4, 4, 139, 0.384);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana1:hover {
+    opacity: 0.9;
+    border-color: blue;
+    box-shadow: 0px 0px 50px 15px rgba(4, 4, 139, 0.24);
+}
+
+.content .semana2 {
+    cursor: pointer;
+    background-color: rgba(110, 3, 3, 0.466);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana2:hover {
+    opacity: 0.9;
+    border-color: red;
+    box-shadow: 0px 0px 50px 15px rgba(110, 3, 3, 0.315);
+}
+
+.content .semana3 {
+    cursor: pointer;
+    background-color: rgba(4, 110, 45, 0.466);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana3:hover {
+    opacity: 0.9;
+    border-color: rgb(2, 97, 2);
+    box-shadow: 0px 0px 50px 15px rgba(4, 110, 45, 0.295);
+}
+
+.content .semana4 {
+    cursor: pointer;
+    background-color: rgba(133, 62, 4, 0.548);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana4:hover {
+    opacity: 0.9;
+    border-color: rgb(141, 39, 39);
+    box-shadow: 0px 0px 50px 15px rgba(133, 62, 4, 0.377);
+}
+
+.content .semana5 {
+    cursor: pointer;
+    background-color: rgba(110, 4, 110, 0.466);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana5:hover {
+    opacity: 0.9;
+    border-color: purple;
+    box-shadow: 0px 0px 50px 15px rgba(110, 4, 110, 0.37);
+}
+
+.content .semana6 {
+    cursor: pointer;
+    background-color: rgba(183, 196, 8, 0.466);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana6:hover {
+    opacity: 0.9;
+    border-color: rgb(145, 170, 3);
+    box-shadow: 0px 0px 50px 15px rgba(184, 196, 8, 0.253);
+}
+
+.content .semana7 {
+    cursor: pointer;
+    background-color: rgba(185, 8, 52, 0.37);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.semana7:hover {
+    opacity: 0.9;
+    border-color: rgb(156, 5, 80);
+    box-shadow: 0px 0px 50px 15px rgba(185, 8, 52, 0.219);
+}
+
+
+/* FIM DOS CARDS */
+
+/* --------------- X --------------- */
+
+/* COMEÇO DAS CHECKBOX */
+
+/* Hide the default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+   }
+   
+   .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+   }
+   
+   /* Create a custom checkbox */
+   .checkmark {
+    margin-top: 35px;
+    margin-left: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #d6d6d6;
+    transition: all 0.5s;
+   }
+   
+   /* When the checkbox is checked, add a blue background */
+   .container input:checked ~ .checkmark {
+    border: 2px solid #080;
+   }
+   
+   /* Create the checkmark/indicator (hidden when not checked) */
+   .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+   }
+   
+   /* Show the checkmark when checked */
+   .container input:checked ~ .checkmark:after {
+    display: block;
+   }
+   
+   /* Style the checkmark/indicator */
+   .container .checkmark:after {
+    left: 0.55em;
+    top: -0.15em;
+    width: 0.35em;
+    height: 0.7em;
+    border: solid #080;
+    border-width: 0 0.25em 0.25em 0;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+   }
+
+   /* FIM DA CHECKBOX */
+
+   /* ------------ X --------------- */
+
+
+   @media screen and (max-width: 480px) {
+    nav {
+        margin-top: 1rem;
+        margin-left: 80px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+    .content {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 650px;
+    }
+    .content > .semana1 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana2 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana3 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana4 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana5 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana6 {
+        width: 300px;
+        margin-left: 5px;
+    }
+    .content > .semana7 {
+        width: 300px;
+        margin-left: 5px;
+    }
+   }
